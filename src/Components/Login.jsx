@@ -4,7 +4,7 @@ import { auth, db } from '../firebase';
 import { useNavigate, Link } from 'react-router-dom';
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import Lottie from "lottie-react";
-import login from '../assets/Login.json'
+import login from '../../public/assets/Login.json'
 
 const Login = () => {
   const [email, setEmail] = useState('');

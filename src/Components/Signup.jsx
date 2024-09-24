@@ -4,7 +4,7 @@ import { auth, db } from '../firebase';
 import { useNavigate, Link } from 'react-router-dom';
 import { doc, setDoc, collection, query, where, getDocs } from "firebase/firestore";
 import Lottie from 'lottie-react';
-import signup from '../assets/signup.json';
+import signup from '../../public/assets/signup.json';
 import { toast, Toaster } from 'react-hot-toast';
 
 const Signup = () => {

@@ -7,7 +7,7 @@ import Login from './Components/Login';
 import Chat from './Components/Chat';
 import { Toaster } from 'react-hot-toast';
 import Lottie from 'lottie-react';
-import loading from './assets/Loading.json';
+import loading from '../public/assets/Loading.json';
 
 function App() {
   const [user, setUser] = useState(null);
